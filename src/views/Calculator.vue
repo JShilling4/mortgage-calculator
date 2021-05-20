@@ -1,5 +1,5 @@
 <template>
-    <div class="calculator">
+    <div>
         <MortgageCalculator />
     </div>
 </template>
