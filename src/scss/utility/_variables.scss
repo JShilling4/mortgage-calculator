@@ -1,0 +1,55 @@
+// COLORS
+$orange: #f38e36;
+$orange-contrast: #e7730d;
+$hover-orange: #ff6c00;
+
+$light-teal: #16af8c;
+
+$teal: #108c73;
+$teal-contrast: #0f8069;
+
+$dark-teal: #0f6b5a;
+$dark-green-faded: rgba(12, 85, 72, 0.8);
+$darkest-blue: #001b2b;
+
+$dark-blue: #142f42;
+$dark-blue-contrast: #12273b;
+
+$dark-blue-card-overlay: rgba(19, 46, 66, 0.95);
+$dark-blue-sidenav: rgba(19, 46, 66, 0.8);
+$blue-green: #08485c;
+$blue-green-faded: rgba(8, 72, 92, 0.8);
+$gray-bg: #ebebeb;
+$gray-icon: #898989;
+
+$gray-copy: #a5a4a4;
+$gray-copy-contrast: #747272;
+
+$black-copy: #231f20;
+$off-white: #cacdce;
+$menu-border: #898989;
+$validation-error: #ff2e2e;
+
+// TEXT VARIABLES
+$footer-link-color: $off-white;
+$green-copy-accent-color: #148e7a;
+
+// TRANSITIONS
+$navbar-shrink-speed: 0.3s;
+$process-step-trans: transform 0.6s ease-in-out;
+$process-step-opac: opacity 1.1s ease-in-out;
+// SHADOWS
+$navbar-shadow: 0 3px 10px rgba(158, 158, 158, 0.3);
+$orange-bold: 0 0 0.65px $orange, 0 0 0.65px $orange;
+$white-hero-text: 0 2px 10px #132e42;
+$blue-green-bold: 0.5px 0.5px 1px $blue-green, 0.5px 0.5px 1px $blue-green;
+$teal-bold: 0.5px 0.5px 1px $teal, 0.5px 0.5px 1px $teal;
+$dark-blue-bold: 0.5px 0.5px 1px $dark-blue, 0.5px 0.5px 1px $dark-blue;
+$card-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.4);
+
+// URL PATHS
+$image-3up: "../../../public/images";
+$image-4up: "../../../../public/images";
+
+// FONT AWESOME 5
+$fa-font-path: "../../../../public/webfonts";
