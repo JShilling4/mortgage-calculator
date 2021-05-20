@@ -2,11 +2,6 @@
     <div class="calculator">
 
         <div class="calculator__wrapper">
-            <img
-                src="https://webresources.ruoff.com/logo-horizontal-color-nmls/png/250/0"
-                alt="Ruoff Mortgage Logo"
-                class="ruoffLogo"
-            />
             <div class="calcNavbar">
                 <div class="calcNavbar__calcs">
                     <span
@@ -100,12 +95,11 @@ $filll-c: $dark-blue;
     width: $thumb-d;
     height: $thumb-d;
     border-radius: 50%;
-    background: $teal;
+    background-color: $teal;
 }
 
 .calculator {
-    width: 100%;
-    height: 100%;
+    padding: 6rem;
     label {
         color: $gray-icon;
     }
@@ -319,43 +313,6 @@ $filll-c: $dark-blue;
                 max-width: 100%;
                 @include breakpoint(ipadPro) {
                     height: 275px;
-                }
-            }
-        }
-    }
-}
-body.highContrast {
-    .calculator {
-        label {
-            color: $gray-copy-contrast;
-        }
-        .calcNavbar {
-            &__link {
-                color: $gray-copy-contrast;
-            }
-        }
-        .col-2 {
-            .principalAndInterest,
-            .homeInsurance,
-            .propTax,
-            .hoaFees {
-                .prependDollar {
-                    color: $gray-copy-contrast;
-                }
-                .prependPlus {
-                    color: $gray-copy-contrast;
-                }
-            }
-        }
-        .col-3 {
-            .chartWrapper {
-                .label-block {
-                    span:last-child {
-                        color: $gray-copy-contrast;
-                    }
-                }
-                .doughnut-label {
-                    color: $orange-contrast;
                 }
             }
         }
