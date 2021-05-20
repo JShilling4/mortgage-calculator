@@ -564,23 +564,6 @@ export default {
         }
     }
 }
-body.highContrast {
-    .calculator {
-        .appendPercent {
-            color: $gray-copy-contrast;
-        }
-        .input-group {
-            .label-block {
-                span {
-                    color: $gray-copy-contrast;
-                }
-                .estPmt-value {
-                    color: $orange-contrast;
-                }
-            }
-        }
-    }
-}
 
 .slider {
     --min: 80000;

@@ -506,25 +506,4 @@ export default {
     display: inline-block;
     outline: none;
 }
-
-body.highContrast {
-    .calculator {
-        .appendPercent {
-            color: $gray-copy-contrast;
-        }
-        .input-group {
-            .label-block {
-                span {
-                    color: $gray-copy-contrast;
-                }
-                .estPmt-value {
-                    color: $orange-contrast;
-                }
-            }
-        }
-    }
-    .advancedToggle {
-        color: $teal-contrast;
-    }
-}
 </style>
