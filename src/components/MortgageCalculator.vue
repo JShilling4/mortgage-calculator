@@ -65,8 +65,6 @@ $filll-c: $dark-blue;
 @mixin track($fill: 0) {
     box-sizing: border-box;
     border: 1px solid $gray-icon;
-    border-left: none;
-    border-right: none;
     border-radius: 15px;
     width: $track-w;
     height: $track-h;
