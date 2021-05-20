@@ -60,7 +60,7 @@ $track-w: 100%;
 $track-h: 0.7em;
 $thumb-d: 1.7em;
 $track-c: rgba(255, 255, 255, 0.3);
-$filll-c: $dark-blue;
+$fill-c: $main-font-color;
 
 @mixin track($fill: 0) {
     box-sizing: border-box;
@@ -72,7 +72,7 @@ $filll-c: $dark-blue;
 
     @if $fill == 1 {
         .js & {
-            background: linear-gradient($filll-c, $filll-c)
+            background: linear-gradient($fill-c, $fill-c)
                 0 /
                 var(--sx)
                 100%
@@ -84,7 +84,7 @@ $filll-c: $dark-blue;
 
 @mixin fill() {
     height: $track-h;
-    background: $filll-c;
+    background: $fill-c;
 }
 
 @mixin thumb() {
@@ -93,7 +93,7 @@ $filll-c: $dark-blue;
     width: $thumb-d;
     height: $thumb-d;
     border-radius: 50%;
-    background-color: $teal;
+    background-color: $primary-color;
 }
 
 .calculator {
@@ -141,7 +141,7 @@ $filll-c: $dark-blue;
                 }
             }
             &.active {
-                color: $dark-blue !important; // due to high contrast styles
+                color: $main-font-color !important; // due to high contrast styles
                 font-weight: 600;
                 &:before {
                     content: "";
@@ -150,7 +150,7 @@ $filll-c: $dark-blue;
                     left: 0;
                     width: 100%;
                     height: 5px;
-                    background-color: $teal;
+                    background-color: $primary-color;
                 }
             }
         }
@@ -190,7 +190,7 @@ $filll-c: $dark-blue;
                 height: 4.5rem;
                 text-align: right;
                 padding-right: 1rem;
-                color: $dark-blue;
+                color: $main-font-color;
                 font-weight: 600;
                 font-size: 2.2rem;
                 width: 100%;
@@ -229,25 +229,25 @@ $filll-c: $dark-blue;
             margin-top: 4rem;
             padding-bottom: 2rem;
             span.colorCode {
-                background-color: $dark-blue;
+                background-color: $main-font-color;
             }
         }
         .homeInsurance {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $blue-green;
+                background-color: $tertiary-color;
             }
         }
         .propTax {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $teal;
+                background-color: $primary-color;
             }
         }
         .hoaFees {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $light-teal;
+                background-color: $quaternary-color;
             }
         }
         .label-block {
@@ -302,7 +302,7 @@ $filll-c: $dark-blue;
                 }
             }
             .doughnut-label {
-                color: $orange;
+                color: $secondary-color;
                 font-weight: 700;
                 font-size: 4rem;
             }

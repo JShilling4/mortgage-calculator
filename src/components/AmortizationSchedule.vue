@@ -163,7 +163,7 @@ export default {
                 ],
             };
         },
-        
+
         payoffDate() {
             /**
              * Orange payoff date below graph
@@ -309,7 +309,7 @@ export default {
                 this.scrollNotification = bottom + top > height;
             }
         },
-        
+
     },
     mounted() {
         // this.calculateSchedule();
@@ -401,7 +401,7 @@ export default {
 
         h4 {
             margin: 0 3rem;
-            color: $dark-blue;
+            color: $main-font-color;
             @include breakpoint(ipadPro) {
                 width: 100%;
                 margin: 0 0 3rem;
@@ -428,7 +428,7 @@ export default {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: $dark-blue;
+                color: $main-font-color;
                 text-align: center;
                 position: absolute;
                 left: 0;
@@ -461,7 +461,7 @@ export default {
                     line-height: 2.1rem;
                     letter-spacing: 0.1rem;
                     background-color: $gray-bg;
-                    color: $dark-blue;
+                    color: $main-font-color;
                     text-transform: capitalize;
 
                     &--wide {
@@ -571,7 +571,7 @@ export default {
 
             .payoff {
                 padding-top: 1.7rem;
-                color: $orange;
+                color: $secondary-color;
             }
 
             .list-group {
@@ -595,15 +595,15 @@ export default {
                     border-radius: 5px;
 
                     &--light-teal {
-                        background-color: $light-teal;
+                        background-color: $quaternary-color;
                     }
 
                     &--blue-green {
-                        background-color: $blue-green;
+                        background-color: $tertiary-color;
                     }
 
                     &--dark-blue {
-                        background-color: $orange;
+                        background-color: $secondary-color;
                     }
                 }
             }

@@ -407,7 +407,7 @@ export default {
         .downPmt input {
             height: 4.5rem;
             padding-left: 2.5rem;
-            color: $dark-blue;
+            color: $main-font-color;
             font-weight: 600;
             border: 1px solid $gray-icon;
             font-size: 2.2rem;
@@ -426,7 +426,7 @@ export default {
                 height: 4.5rem;
                 width: 100%;
                 font-size: 2.2rem;
-                color: $dark-blue;
+                color: $main-font-color;
                 font-weight: 600;
                 padding-left: 0.5rem;
             }
@@ -442,7 +442,7 @@ export default {
                 height: 4.5rem;
                 width: 100%;
                 font-size: 2.2rem;
-                color: $dark-blue;
+                color: $main-font-color;
                 border: 1px solid $gray-icon;
                 font-weight: 600;
                 padding-left: 0.5rem;
@@ -469,13 +469,13 @@ export default {
                 }
             }
             .homePrice-value {
-                color: $dark-blue;
+                color: $main-font-color;
                 font-weight: 700;
                 font-size: 3rem;
                 width: 12.5rem;
             }
             .estPmt-value {
-                color: $orange;
+                color: $secondary-color;
                 font-weight: 700;
                 font-size: 4rem;
             }
@@ -496,7 +496,7 @@ export default {
     --val: 165000;
 }
 .advancedToggle {
-    color: $teal;
+    color: $primary-color;
     text-decoration: underline;
     font-style: italic;
 }
