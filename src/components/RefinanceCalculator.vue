@@ -237,10 +237,10 @@ export default {
                 datasets: [
                     {
                         backgroundColor: [
-                            "#132e42",
-                            "#08485c",
-                            "#108c73",
-                            "#16af8c",
+                            "#25166a",
+                            "#1c8665",
+                            "#2BD49E",
+                            "#B6D42B",
                         ],
                         borderColor: "#fff",
                         //Data to be represented on y-axis

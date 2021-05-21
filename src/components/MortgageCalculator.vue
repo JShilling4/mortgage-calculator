@@ -235,19 +235,19 @@ $fill-c: $main-font-color;
         .homeInsurance {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $tertiary-color;
+                background-color: $quinary-color;
             }
         }
         .propTax {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $primary-color;
+                background-color: $quaternary-color;
             }
         }
         .hoaFees {
             padding: 1.5rem 0;
             span.colorCode {
-                background-color: $quaternary-color;
+                background-color: $tertiary-color;
             }
         }
         .label-block {

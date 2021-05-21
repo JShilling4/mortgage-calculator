@@ -5,9 +5,10 @@ $gray-icon: #898989;
 $gray-copy: #a5a4a4;
 $validation-error-color: #ff2e2e;
 
-$primary-color: #108c73;
-$secondary-color: #f38e36;
-$tertiary-color: #08485c;
-$quaternary-color: #16af8c;
+$primary-color: #492BD4;
+$secondary-color: #D42B61;
+$tertiary-color: #B6D42B;
+$quaternary-color: #2BD49E;
+$quinary-color: #1c8665;
 
-$main-font-color: #142f42;
+$main-font-color: darken($primary-color, 25%);

@@ -144,15 +144,15 @@ export default {
                 datasets: [
                     {
                         label: "Paid Principle",
-                        backgroundColor: "rgba(243, 142, 54, .5)",
+                        backgroundColor: "rgba(212, 43, 96, 0.541)",
                         data: this.totalsPaymentArray,
-                        pointColor: "#f38e36",
+                        pointColor: "#D42B61",
                     },
                     {
                         label: "Paid Interest",
-                        backgroundColor: "rgba(8, 72, 92, .6)",
+                        backgroundColor: "rgba(181, 212, 43, 0.555)",
                         data: this.totalsInterestArray,
-                        pointColor: "#08485c",
+                        pointColor: "#B6D42B",
                     },
                     {
                         label: "Principle",
