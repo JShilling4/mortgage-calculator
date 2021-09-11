@@ -98,6 +98,15 @@ $fill-c: $main-font-color;
 
 .calculator {
     padding: 6rem;
+    @include breakpoint(tablet-land) {
+        padding: 4rem;
+    }
+    @include breakpoint(tablet-port) {
+        padding: 3rem;
+    }
+    @include breakpoint(mobile) {
+        padding: 1rem;
+    }
     label {
         color: $gray-icon;
     }

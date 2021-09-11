@@ -309,12 +309,11 @@ export default {
                 this.scrollNotification = bottom + top > height;
             }
         },
-
     },
     mounted() {
         // this.calculateSchedule();
         this.handleScroll();
-    }
+    },
 };
 </script>
 <style lang="scss">
@@ -454,7 +453,7 @@ export default {
                 line-height: 3.1rem;
                 color: $gray-copy;
                 text-align: left;
-                font-family: Avenir;
+                font-family: Arial, sans-serif;
 
                 .table__header {
                     font-size: 1.4rem;
