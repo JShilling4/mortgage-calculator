@@ -3,33 +3,23 @@
 ## Project setup
 
 ```markdown
-npm install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```markdown
-npm run serve-dev
+pnpm dev
 ```
 
 ### Compiles and minifies for production
 
 ```markdown
-npm run build-prod
-```
-
-### Run your unit tests
-
-```markdown
-npm run test:unit
+pnpm build
 ```
 
 ### Lints and fixes files
 
 ```markdown
-npm run lint
+pnpm lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
