@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.6.5
     version: 3.6.5
   moment:
-    specifier: ^2.29.1
-    version: 2.29.1
+    specifier: ^2.29.4
+    version: 2.29.4
   vue:
     specifier: ^2.6.11
     version: 2.6.11
@@ -1622,7 +1622,7 @@ packages:
   /@types/chart.js@2.9.37:
     resolution: {integrity: sha512-9bosRfHhkXxKYfrw94EmyDQcdjMaQPkU1fH2tDxu8DWXxf1mjzWQAV4laJF51ZbC2ycYwNDvIm1rGez8Bug0vg==}
     dependencies:
-      moment: 2.29.1
+      moment: 2.29.4
     dev: false
 
   /@types/connect-history-api-fallback@1.5.0:
@@ -3642,7 +3642,7 @@ packages:
     resolution: {integrity: sha512-Di3wUL4BFvqI5FB5K26aQ+hvWh8wnP9A3DWGvXHVkO13D3DSnaSsdZx29cXlEsYKVkn1E2az+ZYFS4t0zi8x0w==}
     dependencies:
       chartjs-color: 2.4.1
-      moment: 2.29.1
+      moment: 2.29.4
     dev: false
 
   /chartjs-color-string@0.6.0:
@@ -7972,8 +7972,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /moment@2.29.1:
-    resolution: {integrity: sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==}
+  /moment@2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
     dev: false
 
   /move-concurrently@1.0.1:
